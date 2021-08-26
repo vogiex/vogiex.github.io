@@ -1,0 +1,66 @@
+body {
+  background-color: rgba(45, 45, 45, 1);
+  font-family: "Kanit", sans-serif;
+}
+
+/* jumbotron */
+.jumbotron {
+  padding-top: 3rem;
+}
+.jumbotron .container h1 {
+  padding-top: 1rem;
+  color: rgba(255, 205, 108, 1);
+  font-size: 25px;
+}
+.jumbotron .container .col h2 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 69px;
+}
+
+/* Akhir Jumbotron */
+/* awal tentang saya */
+a:hover {
+  opacity: 0.9;
+}
+/* akhir tentang saya */
+
+/* awal project */
+.project {
+  font-size: 35px;
+  margin-top: 200px;
+  text-shadow: -2px 3px #868686;
+}
+.ui {
+  margin-top: 61px;
+  height: auto;
+  max-width: 100%;
+}
+.spongebob {
+  margin-top: 61px;
+  height: auto;
+  max-width: 100%;
+}
+.meja {
+  margin-top: 61px;
+  height: auto;
+  max-width: 100%;
+}
+/* akhir project */
+.round {
+  height: 55px;
+  margin-top: 51px;
+  background: linear-gradient(271.12deg, rgba(65, 65, 65, 0.25) 12.06%, rgba(196, 196, 196, 0.25) 76.34%);
+  border-radius: 5px;
+}
+@media screen and (min-width: 601px) {
+  .round .example {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .round .example {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
