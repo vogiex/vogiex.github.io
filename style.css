@@ -2,6 +2,9 @@ body {
   background-color: rgba(45, 45, 45, 1);
   font-family: "Kanit", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* jumbotron */
 .jumbotron {
